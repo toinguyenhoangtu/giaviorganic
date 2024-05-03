@@ -62,7 +62,7 @@
                                     @foreach (Cart::content() as $product)
                                         <tr>
                                             <td class="fp__pro_img"><img
-                                                    src="{{ asset($product->options->product_info['image']) }}" alt="product"
+                                                    src="{{ $product->options->product_info['image'] }}" alt="product"
                                                     class="img-fluid w-100">
                                             </td>
 
